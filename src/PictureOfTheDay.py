@@ -2,12 +2,6 @@ import requests
 import json
 import os
 
-# KEY: WPahYarP85QoflEnEznxYoGgWWmBnVuDfD1ck7vB
-# https://api.nasa.gov/planetary/apod?api_key=WPahYarP85QoflEnEznxYoGgWWmBnVuDfD1ck7vB
-# Account ID: 891ec21f-4cfd-4361-a22c-515e3c77f471
-
-KEY = os.environ.get('NASA_KEY')
-
 
 count = 10
 
